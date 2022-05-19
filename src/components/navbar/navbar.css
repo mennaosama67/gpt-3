@@ -5,14 +5,15 @@
   align-items: center;
   font-family: var(--font-family);
 }
-.navbar__logo {
+.navbar__logo img{
   width: 62.56px;
   height: 16.02px;
 }
 .navbar-links__items,
 .navbar-sign p,
 .navbar__mobile-menu__items,
-.navbar-sign button {
+.navbar-sign button,
+.navbar__mobile-menu__sign {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
@@ -29,8 +30,8 @@
 }
 .navbar-sign {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  cursor: pointer;
 }
 .navbar-sign button,
 .navbar__mobile-menu__sign button {
@@ -38,6 +39,7 @@
   border-radius: 5px;
   padding: 0.5rem 1rem;
   margin-left: 1rem;
+  cursor: pointer;
 }
 .navbar__mobile-menu {
   position: relative;
