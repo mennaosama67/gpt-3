@@ -14,7 +14,7 @@ function Navbar() {
        <li className="navbar-links__item"> <a href="#home">Home</a></li>
        <li className="navbar-links__item"> <a href="#gpt3">What is GPT?</a></li>
        <li className="navbar-links__item"> <a href="#possipility">Open AI</a></li>
-       <li className="navbar-links__item"> <a href="#feature">Case Studies</a></li>
+       <li className="navbar-links__item"> <a href="#features">Case Studies</a></li>
        <li className="navbar-links__item"> <a href="#blog">Library</a></li>
        </ul>
       
