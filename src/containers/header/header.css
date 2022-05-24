@@ -121,3 +121,13 @@ margin: 0 1rem;
         padding: 0 0 0 1rem;
     }
 }
+@media screen and (max-width:300px){
+    .header__content h1{
+        font-size: 28px;
+        line-height:35px;
+    }
+    .header__content__input input, .header__content__input button {
+        font-size:12px;
+    }
+
+}

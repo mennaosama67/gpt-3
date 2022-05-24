@@ -53,3 +53,11 @@ color: #71E5FF;
         margin-top: 2rem;
     }
 }
+
+@media screen and (max-width:350px) {
+    .gpt3__possibilities__content h1{
+      
+    font-size: 30px;
+    line-height: 38px;
+}
+}

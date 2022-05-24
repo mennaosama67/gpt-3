@@ -34,9 +34,18 @@
 @media screen and (max-width:550px) {
 
         .gpt3__blogs__container__groupB {
-            
             grid-template-columns: repeat(1, 1fr);
-            
+          }
+          .gpt3__blogs h1 {
+            font-size: 44px;
+            line-height: 45px;
           }
     
+}
+@media screen and (max-width:350px) {
+  .gpt3__blogs h1 {
+    font-size: 34px;
+    line-height:38px;
+  }
+
 }
